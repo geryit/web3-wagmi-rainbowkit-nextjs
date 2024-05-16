@@ -1,17 +1,22 @@
 "use client";
 
 import Image from "next/image";
-import { ConnectBtn } from "./components/connectButton";
 import Profile from "./components/profile";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Send from "./components/send-transaction";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <ConnectBtn />
+    <main className="flex flex-col justify-between p-8 gap-12 md:gap-32 ">
+      <div className="flex justify-end">
+        <ConnectButton />
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1] gap-8">
+      <div>
+        <Send />
+      </div>
+
+      <div className="flex items-center gap-8 flex-wrap justify-center">
         <div>
           <Image
             className=""
@@ -39,6 +44,8 @@ export default function Home() {
           priority
         />
       </div>
+
+      {/* Implement buy donut form to use eth */}
 
       <Profile />
     </main>

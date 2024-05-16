@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 
-import Providers from "./providers";
+import Providers from "./Providers";
 
 export const metadata: Metadata = {
   title: "Web3 | Rainbowkit + Wagmi + Nextjs",
@@ -26,7 +26,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-slate-950 text-white`}>
         <Providers cookie={cookie}>{children}</Providers>
       </body>
     </html>
