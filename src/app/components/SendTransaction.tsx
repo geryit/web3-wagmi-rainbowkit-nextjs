@@ -7,7 +7,7 @@ import {
 } from "wagmi";
 import { parseEther } from "viem";
 
-const Send = () => {
+const SendTransaction = () => {
   const { isConnected } = useAccount();
   const {
     data: hash,
@@ -67,4 +67,4 @@ const Send = () => {
   );
 };
 
-export default Send;
+export default SendTransaction;
