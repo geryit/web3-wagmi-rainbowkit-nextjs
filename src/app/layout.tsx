@@ -10,6 +10,9 @@ import Providers from "./providers";
 export const metadata: Metadata = {
   title: "Web3 | Rainbowkit + Wagmi + Nextjs",
   description: "Web3 | Rainbowkit + Wagmi + Nextjs Cryptocurrency App",
+  icons: {
+    icon: "/rainbow.png",
+  },
 };
 
 const inter = Inter({ subsets: ["latin"] });
