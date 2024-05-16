@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 
-import Providers from "./Providers";
+import Providers from "./providers";
 
 export const metadata: Metadata = {
   title: "Web3 | Rainbowkit + Wagmi + Nextjs",
