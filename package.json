@@ -1,7 +1,7 @@
 {
-  "name": "wagmi-rainbowkit-nextjs-dapp",
+  "name": "web3-wagmi-rainbowkit-nextjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
