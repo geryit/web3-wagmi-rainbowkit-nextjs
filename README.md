@@ -7,8 +7,8 @@
 Live Demo: https://web3-wagmi-rainbowkit-nextjs.vercel.app/
 
 Video: 
+![Google Chrome - Web3 - Rainbowkit + Wagmi + Nextjs 2024-05-19 at 10 01 27 PM (2)](https://github.com/geryit/web3-wagmi-rainbowkit-nextjs/assets/514149/54fa8550-3487-453e-b349-f1d3619f9794)
 
-![ezgif-2-20700b7a74](https://github.com/geryit/web3-wagmi-rainbowkit-nextjs/assets/514149/91c05b7b-d0b2-4130-90a4-75597749a93e)
 
 
 ## About The Project
